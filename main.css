@@ -1,3 +1,10 @@
+:root{
+    --accent-color:#10C9C3;
+    --primary-color:#212529;
+
+    
+}
+
 *{
     box-sizing: border-box;
 }
@@ -25,11 +32,77 @@ body{
     width: 50%;
 }
 .main_heading{
-
+font-weight: 500;
+font-size: 32px;
+color: var(--primary-color);
 }
 .main_text{
-
+font-family: "Nunito Sans", sans-serif;
+font-size: 400;
+font-size: 16px;
 }
 .main_button{
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-family: "Monserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background: var(--accent-color);
+    border: none;
+    color: var(--light-color);
+    border-radius: 4px;
+}
+.about {
+    padding: 100px 0;
+ }
+ .about_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+ }
+ .about_heading {
+    font-weight: 500;
+    font-size: 32px;
+ }
+ .about_text {
+   text-align: center;
+   font-family: "Nunito Sans", sans-serif;
+   line-height: 1.5;
+ }
+ .about_img {
+    width: 200px;
+ }
+
+.skills{
+    background: var(-mid-color);
+}
+.skills_wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.skill_heading{
+
+}
+.skills_block{
+
+}
+.skills_item{
+
+}
+.skills_tittle{
+
+}
+.skills_text{
+
+}
+.skill_percent{
+
+}
+.skills_line{
+
+}
+.skills_level{
 
 }
